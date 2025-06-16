@@ -13,7 +13,7 @@ jack:WhyIsMyPasswordSoStrongIDK
 I then established an SSH connection to the target machine (10.10.131.187) as the user jack:
 
 ssh jack@10.10.131.187
-# Entered password: WhyIsMyPasswordSoStrongIDK
+
 On the target system, I retrieved the user flag:
 
 cat ~/user.txt
