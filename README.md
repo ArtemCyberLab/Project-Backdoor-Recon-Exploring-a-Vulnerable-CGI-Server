@@ -40,7 +40,9 @@ Once I had root-level access, I located and read the root flag:
 
 cat /root/root.txt
 4dbe2259ae53846441cc2479b5475c72
+
 Conclusion
+
 I conducted a complete penetration test of a remote server, identifying and exploiting an RCE vulnerability via an insecure CGI script. Using extracted credentials and traffic analysis, I gained full root access and successfully captured the root flag.
 
 The main attack vector was a vulnerable Python CGI script that executed unsanitized commands directly in the system shell.
